@@ -19,6 +19,11 @@ export default function LoginPage() {
         <Suspense>
           <LoginForm />
         </Suspense>
+        <div className='flex flex-col text-xs text-gray-500 italic'>
+            Logs for testing
+            <span>email: user@nextmail.com</span>
+            <span>password: 123456</span>
+        </div>
       </div>
     </main>
   );
